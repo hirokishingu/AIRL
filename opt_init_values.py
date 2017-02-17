@@ -16,7 +16,7 @@ class Bandit:
     self.mean = (1 - 1.0/self.N)*self.mean + 1.0/self.N*x
 
 def run_experiment(m1, m2, m3, N):
-  Bandits = [Bandit(m1), Bandit(m2), Bandit(m3)]
+  bandits = [Bandit(m1), Bandit(m2), Bandit(m3)]
 
   data = np.empty(N)
 
@@ -40,7 +40,7 @@ def run_experiment(m1, m2, m3, N):
 
   return cumulative_average
 
-if __name__ = "__main__":
+if __name__ == "__main__":
   c_1 = run_experiment_eps(1.0, 2.0, 3.0, 0.1, 100000)
   oiv = run_experiment(1.0, 2.0, 3.0, 100000)
 
