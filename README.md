@@ -1,5 +1,6 @@
 # AIRL
 Artificial Inteligence Reinforcement Learning
+> 基本的に強化学習の内容
 
 lazy Programming personal learning
 
