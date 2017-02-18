@@ -11,6 +11,8 @@ lazy Programming personal learning
 # Grid World
 
 values for uniformly random actions:
+
+```
 -----------------------------
 -0.03| 0.09| 0.22| 0.00|
 -----------------------------
@@ -42,7 +44,7 @@ values for fixed policy:
 -----------------------------
   ↑ | -1.00| -1.00| -1.00|
 
-
+```
 > 結果は上記のようになった。
 
 HirokiShingu
